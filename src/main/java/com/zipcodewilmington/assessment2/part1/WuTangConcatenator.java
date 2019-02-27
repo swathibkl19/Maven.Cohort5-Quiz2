@@ -4,15 +4,26 @@ public class WuTangConcatenator {
     public WuTangConcatenator(Integer input) {
     }
 
-    public Boolean isWu() {
-        return null;
-    }
+        public Boolean isWu () {
+            WuTangConcatenator a = WuTangConcatenator.this;
 
-    public Boolean isTang() {
-        return null;
-    }
+           // boolean bool = (a * 3);
 
-    public Boolean isWuTang() {
-        return null;
+           // Boolean  b;
+            //b = a * 3;
+            return null;
+
+        }
+
+        public Boolean isTang () {
+      //boolean a= WuTangConcatenator.this;
+
+       //return a * 5;
+            return null;
+        }
+
+        public Boolean isWuTang () {
+
+            return null;
+        }
     }
-}
