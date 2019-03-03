@@ -35,4 +35,5 @@ public class RedRobinTest {
 
         Assert.assertEquals(expected, actual);
     }
+
 }

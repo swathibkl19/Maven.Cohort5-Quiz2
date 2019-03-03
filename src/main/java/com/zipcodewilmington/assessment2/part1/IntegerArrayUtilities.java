@@ -1,6 +1,8 @@
 package com.zipcodewilmington.assessment2.part1;
 
-import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.IntStream;
 
 public class IntegerArrayUtilities {
 
@@ -13,9 +15,17 @@ public class IntegerArrayUtilities {
 
     public Integer[] range(int start, int stop) {
 
-       // for (int i = start; i <= stop; i++)
+        List<Integer> list = new ArrayList<Integer>();
 
-           return null;
+        for (int i = start; i <= stop; i++) {
+
+            list.add(i);
+
+        }
+       // System.out.println(list);
+        Integer[] arr =new Integer[list.size()];
+
+        return list.toArray(arr);
     }
 
 

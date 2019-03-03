@@ -2,11 +2,8 @@ package com.zipcodewilmington.assessment2.part2.arrayutility;
 
 import com.zipcodewilmington.assessment2.TestUtils;
 import com.zipcodewilmington.assessment2.part2.ArrayUtility;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Arrays;
 
 public class MergeTest {
     private ArrayUtility utility;
@@ -66,7 +63,7 @@ public class MergeTest {
 
     private void test(Integer[] array1, Integer[] array2, Integer[] expected) {
         // when
-        Integer[] actual = utility.merge(array1, array2);
+        Integer[] actual = utility.merge(array1, array2, array1.length);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
